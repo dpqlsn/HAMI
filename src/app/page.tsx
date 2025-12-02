@@ -1,7 +1,7 @@
-export default function Home() {
-  return (
-    <main>
-      <h1>Welcome to HAMI</h1>
-    </main>
-  );
+"use client";
+
+import Home from "@/container/home";
+
+export default function HomePage() {
+  return <Home />
 }
