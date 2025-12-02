@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import GlobalStyle from '@/style/GlobalStyle';
 
 export const metadata: Metadata = {
   title: 'HAMI',
@@ -13,6 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
+      <GlobalStyle />
       <body className="antialiased bg-white">
         {children}
       </body>
