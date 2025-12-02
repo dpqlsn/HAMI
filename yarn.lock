@@ -1737,6 +1737,11 @@ flatted@^3.2.9:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.3.3.tgz#67c8fad95454a7c7abebf74bb78ee74a44023358"
   integrity sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==
 
+font-kopub@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/font-kopub/-/font-kopub-1.0.2.tgz#66fd0ed51341a527df4682b02d4cc35b92f1f070"
+  integrity sha512-V1x1S8l1Icz63cP9teyVre99pXq0qnN09XcZrXznk13lVZ9Nv8eOAg4Ik1GhUB5p8n63M+6SMv29Tguz+gH01Q==
+
 for-each@^0.3.3, for-each@^0.3.5:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/for-each/-/for-each-0.3.5.tgz#d650688027826920feeb0af747ee7b9421a41d47"
