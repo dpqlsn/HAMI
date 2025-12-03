@@ -1,10 +1,22 @@
 "use client";
 
 import * as S from './style';
+import { useRouter } from 'next/navigation';
+import { useEffect } from 'react';
 
 export default function Home() {
+    const router = useRouter();
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            router.push('/');
+        }, 3000);
+
+        return () => clearTimeout(timer);
+    }, [router]);
+
     return (
-        <S.Contaienr>
+        <S.Contaienr onClick={() => router.push('/')}>
             <S.TextGroup>
                 <S.Title>당신의 아이디어를</S.Title>
                 <S.Title>시험해보세요</S.Title>
