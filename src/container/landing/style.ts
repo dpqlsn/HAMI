@@ -42,7 +42,6 @@ export const Title = styled.div`
 export const SubTitle = styled.button`
   display: flex;
   font-size: 1.25rem;
-  font-weight: 700;
   text-shadow: 0 0 10px #008D04, 0 0 20px #008D04;
   color: #9EB09E;
   background-color: transparent;
@@ -51,10 +50,10 @@ export const SubTitle = styled.button`
   cursor: pointer;
 
   @keyframes blink {
-    0%, 0%, 100% {
+    0%, 35%, 100% {
       opacity: 1;
     }
-    25%, 75% {
+    5%, 75% {
       opacity: 0.85;
     }
   }

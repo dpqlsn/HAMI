@@ -6,10 +6,10 @@ const GlobalStyle = () => (
   <Global
     styles={css`
       @font-face {
-        font-family: 'KoPubBatang';
-        src: url('https://cdn.jsdelivr.net/npm/kopubfont@1.0/korean/KoPubBatang-Bold.woff2')
-          format('woff2');
-        font-weight: 700;
+        font-family: 'DOSMyungjo';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102@1.1/DOSMyungjo.woff')
+          format('woff');
+        font-weight: 500;
         font-style: normal;
       }
 
@@ -17,8 +17,8 @@ const GlobalStyle = () => (
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'KoPubBatang', serif;
-        font-weight: 700;
+        font-family: 'DOSMyungjo', serif;
+        font-weight: 500;
       }
 
       html,
