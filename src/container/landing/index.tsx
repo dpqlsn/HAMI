@@ -4,7 +4,7 @@ import * as S from './style';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 
-export default function Home() {
+export default function Landing() {
     const router = useRouter();
 
     useEffect(() => {

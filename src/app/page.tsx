@@ -1,7 +1,7 @@
 "use client";
 
-import Home from "@/container/home";
+import Landing from "@/container/landing";
 
-export default function HomePage() {
-  return <Home />
+export default function LandingPage() {
+  return <Landing />
 }
